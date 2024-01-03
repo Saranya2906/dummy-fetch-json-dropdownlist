@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-photo/grey-textured-background_24972-763.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#user-dropdown {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#user-table th, #user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#user-table th {
+    background-color: gray;
+    color: white;
+}
+
+#user-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#user-table tbody tr:hover {
+    background-color: #e6e6e6;
+}
